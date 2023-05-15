@@ -1,0 +1,46 @@
+
+
+/* .borde{
+  border: 6px solid #394867
+
+} */
+
+@keyframes animacion {
+  0% {
+    border:6px solid #006eff;
+
+  }
+
+  25% {
+    border:6px solid #03a7ff;
+
+  }
+
+  50% {
+    border:6px solid #00f2ff;
+
+  }
+  65% {
+    border:6px solid #0080ff;
+
+  }
+  95% {
+    border:6px solid #0044ff;
+
+  }
+  100% {
+    border:6px solid #0080f8;
+
+  }
+  
+}
+
+
+
+.contenedorAnimado {
+  box-shadow: 0px 0px 10px #0e131f;
+  animation: animacion 2s linear infinite;
+  background-color: #000000;
+
+
+}
