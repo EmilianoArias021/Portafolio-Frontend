@@ -7,6 +7,8 @@ import { TokenService } from 'src/app/service/token.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
 export class AppComponent implements OnInit {
   title = 'porfolio';
   isLogged = false;
